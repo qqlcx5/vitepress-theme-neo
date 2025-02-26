@@ -6,6 +6,10 @@
   :tags="['Vue', 'JavaScript', '教程']"
 />
 
+<h1 class="text-3xl font-bold underline text-blue-500 dark:text-blue-400">
+  Hello world!
+</h1>
+
 ## Vue 3 的新特性
 
 Vue 3 带来了许多令人兴奋的新特性，让我们一起来探索吧！
@@ -22,9 +26,9 @@ Vue 3 是用 TypeScript 重写的，为 TypeScript 用户提供了更好的开�
 
 ```vue
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>

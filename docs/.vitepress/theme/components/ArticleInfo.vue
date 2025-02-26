@@ -15,7 +15,8 @@ const formattedDate = computed(() => {
 
 <template>
   <div class="article-info">
-    <span v-if="date" class="date">
+    <div class="text-red-500">这段文字应该是红色的</div>
+    <span v-if="date" class="date p-20 text-sm bg-[#333] font-bold underline">
       📅 {{ formattedDate }}
     </span>
     <span v-if="category" class="category">

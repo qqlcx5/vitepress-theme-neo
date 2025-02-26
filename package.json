@@ -9,13 +9,16 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "vue": "^3.4.38",
-    "dayjs": "^1.11.10"
+    "dayjs": "^1.11.10",
+    "vue": "^3.4.38"
   },
   "devDependencies": {
-    "vitepress": "2.0.0-alpha.3",
     "@types/node": "^20.11.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "sass": "^1.71.0",
+    "tailwindcss": "^4.0.8",
     "typescript": "^5.5.3",
-    "sass": "^1.71.0"
+    "vitepress": "2.0.0-alpha.3"
   }
 }
