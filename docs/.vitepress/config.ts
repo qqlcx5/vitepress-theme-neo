@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 import { getSidebar } from './utils/sidebar'
 
 export default defineConfig({
-  title: "My Blog",
-  description: "A Vdoing-style Blog Theme",
+  title: "NEO",
+  description: "A NEO-style Theme",
   lastUpdated: false, // Disable Git-based last updated
   themeConfig: {
     logo: 'https://r2-site.feyoudao.cn/logo.png',

@@ -1,0 +1,15 @@
+/* 系统字体 */
+:root {
+    --vp-font-family-base:
+        'HaiPaiQiangDiaoGunShiChaoHeiJian', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* JetBrains Mono 字体 */
+@font-face {
+    font-family: "HaiPaiQiangDiaoGunShiChaoHeiJian";
+    font-weight: 'normal';
+    font-style: 'normal';
+    font-display: swap;
+    src: url("../fonts/HaiPaiQiangDiaoSenXiYuan-Shan.ttf") format("woff2");
+}

@@ -3,6 +3,7 @@ export default {
   content: [
     './docs/**/*.{md,vue}',
     './docs/.vitepress/**/*.{ts,vue}',
+    './theme-neo/**/*.{ts,vue}',
   ],
   theme: {
     extend: {},

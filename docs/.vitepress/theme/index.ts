@@ -1,11 +1,3 @@
-import DefaultTheme from 'vitepress/theme'
-import ArticleInfo from './components/ArticleInfo.vue'
-import './style.scss'
-import './tailwind.css'
+import Neotheme from '../../../theme-neo/index.ts'
 
-export default {
-  extends: DefaultTheme,
-  enhanceApp({ app }) {
-    app.component('ArticleInfo', ArticleInfo)
-  }
-}
+export default Neotheme

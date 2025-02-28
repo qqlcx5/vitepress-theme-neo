@@ -1,11 +1,5 @@
 # Node.js 基础教程
 
-<ArticleInfo
-  date="2024-03-21"
-  category="后端"
-  :tags="['Node.js', 'JavaScript', '教程']"
-/>
-
 ## Node.js 简介
 
 Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时环境。
