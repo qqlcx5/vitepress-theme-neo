@@ -17,6 +17,9 @@ console.log(dataPage.frontmatter.value, 'frontmatter');
 console.log(dataPage.page.value, 'page');
 console.log(dataPage.site.value, 'site');
 console.log(dataPage.theme.value, 'theme');
+const { theme } = useData()
+console.log(theme.value.posts, 'theme.value.posts');
+
 </script>
 
 <template>

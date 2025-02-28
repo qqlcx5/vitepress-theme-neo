@@ -16,7 +16,7 @@ author:
   category="前端"
   :tags="['Vue', 'JavaScript', '教程']"
 />
-
+<TagsPage />
 <h1 class="text-3xl font-bold underline text-blue-500 dark:text-blue-400">
   Hello world!
 </h1>

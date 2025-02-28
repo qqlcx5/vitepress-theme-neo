@@ -1,0 +1,26 @@
+[build.environment]
+NODE_VERSION = "22"
+PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = "1"
+
+[build]
+publish = "docs/.vitepress/dist"
+command = "pnpm run build"
+
+[[headers]]
+for = "/assets/*"
+[headers.values]
+cache-control = '''
+    max-age=31536000,
+    immutable'''
+
+[[redirects]]
+from = "https://tools.theovan.cn/*"
+to = "https://lumen.theojs.cn/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://tools.theojs.cn/*"
+to = "https://lumen.theojs.cn/:splat"
+status = 301
+force = true

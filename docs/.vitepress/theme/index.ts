@@ -1,3 +1,3 @@
-import Neotheme from '../../../theme-neo/index.ts'
+import NeoTheme from '../../../theme-neo/index.ts'
 
-export default Neotheme
+export default NeoTheme
