@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "preserve",
+    "lib": ["ES2018", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "noImplicitAny": false
+  },
+  "include": ["vitepress-theme-teeker", "typings", "vitepress-theme-teeker/package.json"],
+  "exclude": ["**/node_modules", "**/dist", "**/*.md"]
+}

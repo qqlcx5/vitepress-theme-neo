@@ -1,0 +1,6 @@
+packages:
+  - vitepress-theme-teeker
+  - plugins/*
+  - docs
+  - build
+  - demo/*

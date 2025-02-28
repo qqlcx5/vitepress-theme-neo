@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@vitepress-theme-teeker/docs-locales",
+  "version": "1.0.0",
+  "description": "vitepress-theme-teeker 多语言文档 Demo",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vitepress-theme-teeker": "workspace:*"
+  }
+}

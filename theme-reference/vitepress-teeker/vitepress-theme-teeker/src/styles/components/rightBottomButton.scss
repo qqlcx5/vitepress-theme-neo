@@ -1,0 +1,84 @@
+@use "../mixins/bem" as *;
+@use "../mixins/function" as *;
+
+@include b(rightBottomButton) {
+  position: fixed;
+  right: 2rem;
+  bottom: 2.5rem;
+  z-index: 99;
+  gap: 1rem;
+
+  @include e(button) {
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.4rem;
+    border-radius: 50%;
+    box-shadow: 0 1px 8px getCssVar("shadow-color");
+    text-align: center;
+    cursor: pointer;
+    background: getCssVar("bg-color1");
+
+    &:hover {
+      background: getCssVar("theme-color");
+      box-shadow: 0 1px 8px getCssVar("shadow-color-hover");
+      .el-icon {
+        color: #ffffff;
+      }
+    }
+
+    /* 主题尺寸样式 */
+    @include e(button__size) {
+      position: absolute;
+      bottom: 3.7rem;
+      right: 1.7rem;
+    }
+
+    /* 主题模式样式 */
+    @include e(button__mode) {
+      position: absolute;
+      bottom: 0.7rem;
+      right: 1.7rem;
+
+      @include e(button__mode__title) {
+        padding: 0 10px;
+        font-size: 12px;
+        color: var(--el-color-info);
+        cursor: default;
+      }
+    }
+
+    .dropdown {
+      padding: 6px 0 8px 0;
+      background: getCssVar("bg-color1");
+      box-shadow: 0 1px 8px getCssVar("shadow-color");
+      width: 110px;
+      border-radius: 6px;
+      line-height: 1.6rem;
+      text-align: left;
+
+      .dropdown-item {
+        font-size: 14px;
+        padding: 0 10px 0 15px;
+        &:hover {
+          background-color: getCssVar("item-bg-color-hover");
+          color: getCssVar("theme-color");
+        }
+        &.active {
+          background-color: getCssVar("theme-color");
+          color: getCssVar("bg-color1");
+        }
+      }
+    }
+  }
+
+  @media (max-width: 719px) {
+    right: 1rem;
+    bottom: 1.5rem;
+  }
+
+  @media (max-width: 960px) {
+    .size-change {
+      display: none;
+    }
+  }
+}
